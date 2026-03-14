@@ -4,6 +4,9 @@ import { playwright } from '@vitest/browser-playwright';
 
 export default defineConfig({
   plugins: [svelte({ hot: !process.env.VITEST })],
+  optimizeDeps: {
+    include: ['dexie']
+  },
   test: {
     projects: [
       {
