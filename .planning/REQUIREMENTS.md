@@ -144,13 +144,66 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (populated during roadmap creation) | | |
+| PLAT-01 | Phase 1 | Pending |
+| PLAT-02 | Phase 1 | Pending |
+| PLAT-03 | Phase 1 | Pending |
+| PLAT-04 | Phase 1 | Pending |
+| PLAT-05 | Phase 1 | Pending |
+| IMPT-01 | Phase 2 | Pending |
+| IMPT-02 | Phase 2 | Pending |
+| IMPT-03 | Phase 2 | Pending |
+| IMPT-04 | Phase 2 | Pending |
+| IMPT-05 | Phase 2 | Pending |
+| DGRN-01 | Phase 3 | Pending |
+| DGRN-02 | Phase 3 | Pending |
+| DGRN-03 | Phase 3 | Pending |
+| DGRN-04 | Phase 3 | Pending |
+| DGRN-05 | Phase 3 | Pending |
+| MODF-01 | Phase 3 | Pending |
+| MODF-02 | Phase 3 | Pending |
+| MODF-03 | Phase 3 | Pending |
+| MODF-04 | Phase 3 | Pending |
+| MODF-05 | Phase 3 | Pending |
+| ROLL-01 | Phase 4 | Pending |
+| ROLL-02 | Phase 4 | Pending |
+| ROLL-03 | Phase 4 | Pending |
+| ROLL-04 | Phase 4 | Pending |
+| ROLL-05 | Phase 4 | Pending |
+| DICE-01 | Phase 4 | Pending |
+| DICE-02 | Phase 4 | Pending |
+| DICE-03 | Phase 4 | Pending |
+| DICE-04 | Phase 4 | Pending |
+| DICE-05 | Phase 4 | Pending |
+| HIST-01 | Phase 4 | Pending |
+| HIST-02 | Phase 4 | Pending |
+| HIST-03 | Phase 4 | Pending |
+| HIST-04 | Phase 4 | Pending |
+| ATTK-01 | Phase 5 | Pending |
+| ATTK-02 | Phase 5 | Pending |
+| ATTK-03 | Phase 5 | Pending |
+| ATTK-04 | Phase 5 | Pending |
+| ATTK-05 | Phase 5 | Pending |
+| ATTK-06 | Phase 5 | Pending |
+| HERO-01 | Phase 5 | Pending |
+| HERO-02 | Phase 5 | Pending |
+| HERO-03 | Phase 5 | Pending |
+| HERO-04 | Phase 5 | Pending |
+| SPEL-01 | Phase 6 | Pending |
+| SPEL-02 | Phase 6 | Pending |
+| SPEL-03 | Phase 6 | Pending |
+| CHKP-01 | Phase 7 | Pending |
+| CHKP-02 | Phase 7 | Pending |
+| CHKP-03 | Phase 7 | Pending |
+| CHKP-04 | Phase 7 | Pending |
+| CHKP-05 | Phase 7 | Pending |
+| CHKP-06 | Phase 7 | Pending |
+| CHKP-07 | Phase 7 | Pending |
 
 **Coverage:**
-- v1 requirements: 44 total
-- Mapped to phases: 0
-- Unmapped: 44 ⚠️
+- v1 requirements: 54 total
+- Mapped to phases: 54
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-14*
-*Last updated: 2026-03-14 after initial definition*
+*Last updated: 2026-03-14 after roadmap creation*
