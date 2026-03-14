@@ -35,9 +35,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans:** 3/3 plans complete
 
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold SvelteKit project, install deps, configure build tooling + PWA + test infra
-- [ ] 01-02-PLAN.md — Dexie IndexedDB schema, app shell UI (tabs, dice tray, routes), browser tests
-- [ ] 01-03-PLAN.md — GitHub Actions CI/CD workflow, deployment verification checkpoint
+- [x] 01-01-PLAN.md — Scaffold SvelteKit project, install deps, configure build tooling + PWA + test infra
+- [x] 01-02-PLAN.md — Dexie IndexedDB schema, app shell UI (tabs, dice tray, routes), browser tests
+- [x] 01-03-PLAN.md — GitHub Actions CI/CD workflow, deployment verification checkpoint
 
 ### Phase 2: Character Import
 **Goal**: Users can bring their characters into the app and those characters survive sessions
@@ -49,7 +49,12 @@ Plans:
   3. Imported character is still present after closing and reopening the browser
   4. User can delete a character and it is removed from storage
   5. User can re-import a newer JSON for an existing character and the updated data replaces the old
-**Plans**: TBD
+**Plans:** 3 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — NormalizedCharacter types + Foundry and Pathbuilder parsers with TDD tests
+- [ ] 02-02-PLAN.md — Dexie v2 migration, import UI flow, character list/switcher, delete and re-import
+- [ ] 02-03-PLAN.md — Character display components (dashboard, skills, saves, attacks, spells, feats)
 
 ### Phase 3: Rules Engine
 **Goal**: All PF2e rules logic is implemented as tested pure functions that guarantee correct roll results
@@ -116,7 +121,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
-| 2. Character Import | 0/TBD | Not started | - |
+| 2. Character Import | 0/3 | Planning complete | - |
 | 3. Rules Engine | 0/TBD | Not started | - |
 | 4. Core Rolling | 0/TBD | Not started | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |
