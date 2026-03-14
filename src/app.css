@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-base: #1a1a2e;
+  --color-surface-raised: #16213e;
+  --color-surface-overlay: #0f3460;
+  --color-text-primary: #e2e8f0;
+  --color-text-muted: #94a3b8;
+  --color-accent: #e94560;
+  --color-accent-muted: #c73652;
+  --tap-target-min: 44px;
+}
