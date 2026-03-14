@@ -79,7 +79,7 @@ describe('character CRUD', () => {
 
 		const all = await getAllCharacters();
 		expect(all).toHaveLength(2);
-		const names = all.map((c) => c.name);
+		const names = all.map((c: StoredCharacter) => c.name);
 		expect(names).toContain('Knurvik');
 		expect(names).toContain('Seoni');
 	});
