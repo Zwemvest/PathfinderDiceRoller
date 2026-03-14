@@ -12,7 +12,7 @@
 <div class="flex gap-2">
 	<button
 		type="button"
-		class="flex-1 px-4 py-2 rounded-full text-sm font-medium transition-colors border"
+		class="flex-1 px-4 py-2 rounded-full text-sm font-medium transition-colors border cursor-pointer"
 		class:bg-accent={selectedFormat === 'foundry'}
 		class:text-white={selectedFormat === 'foundry'}
 		class:border-accent={selectedFormat === 'foundry'}
@@ -25,7 +25,7 @@
 	</button>
 	<button
 		type="button"
-		class="flex-1 px-4 py-2 rounded-full text-sm font-medium transition-colors border"
+		class="flex-1 px-4 py-2 rounded-full text-sm font-medium transition-colors border cursor-pointer"
 		class:bg-accent={selectedFormat === 'pathbuilder'}
 		class:text-white={selectedFormat === 'pathbuilder'}
 		class:border-accent={selectedFormat === 'pathbuilder'}

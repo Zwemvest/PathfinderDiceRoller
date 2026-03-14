@@ -17,7 +17,7 @@
 	<!-- Header row -->
 	<button
 		type="button"
-		class="w-full flex items-center justify-between px-4 py-3 text-left"
+		class="w-full flex items-center justify-between px-4 py-3 text-left cursor-pointer"
 		onclick={() => (open = !open)}
 		aria-expanded={open}
 	>

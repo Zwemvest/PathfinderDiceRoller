@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+button, [role="button"] {
+  cursor: pointer;
+}
+
 @theme {
   --color-surface-base: #1a1a2e;
   --color-surface-raised: #16213e;
