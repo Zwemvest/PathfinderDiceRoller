@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 2 context gathered
-last_updated: "2026-03-14T21:30:11.850Z"
+stopped_at: Completed 02-character-import/02-01-PLAN.md
+last_updated: "2026-03-14T22:17:47.374Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 6
+  completed_plans: 4
   percent: 0
 ---
 
@@ -54,6 +54,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation P02 | 6 | 2 tasks | 17 files |
 | Phase 01-foundation P03 | 2 | 1 tasks | 1 files |
 | Phase 01-foundation P03 | 20 | 2 tasks | 1 files |
+| Phase 02-character-import P01 | 9 | 3 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -75,6 +76,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: cancel-in-progress concurrency on pages group prevents duplicate deploys when commits land in quick succession
 - [Phase 01-foundation]: NODE_ENV=production in CI build step ensures SvelteKit paths.base='/PathfinderDiceRoller' is set correctly for GitHub Pages asset paths
 - [Phase 01-foundation]: cancel-in-progress concurrency on pages group prevents duplicate deploys when commits land in quick succession
+- [Phase 02-01]: NormalizedCharacter stores ability modifiers (not scores) — PF2e Remaster makes scores irrelevant for display
+- [Phase 02-01]: proficiencyRank stored in Foundry 0-4 scale in both parsers — downstream phases use formula: rank===0?0:level+rank*2
+- [Phase 02-01]: Pathbuilder name field may include postfix text beyond character name — preserved as-is in NormalizedCharacter.name
 
 ### Pending Todos
 
@@ -88,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T21:30:11.847Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-character-import/02-CONTEXT.md
+Last session: 2026-03-14T22:17:47.366Z
+Stopped at: Completed 02-character-import/02-01-PLAN.md
+Resume file: None

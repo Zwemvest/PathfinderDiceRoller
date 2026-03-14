@@ -49,7 +49,7 @@ Plans:
   3. Imported character is still present after closing and reopening the browser
   4. User can delete a character and it is removed from storage
   5. User can re-import a newer JSON for an existing character and the updated data replaces the old
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 
 Plans:
 - [ ] 02-01-PLAN.md — NormalizedCharacter types + Foundry and Pathbuilder parsers with TDD tests
@@ -121,7 +121,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
-| 2. Character Import | 0/3 | Planning complete | - |
+| 2. Character Import | 1/3 | In Progress|  |
 | 3. Rules Engine | 0/TBD | Not started | - |
 | 4. Core Rolling | 0/TBD | Not started | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |

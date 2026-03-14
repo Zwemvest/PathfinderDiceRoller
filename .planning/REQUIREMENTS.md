@@ -9,8 +9,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Character Import
 
-- [ ] **IMPT-01**: User can import a character from a Foundry VTT JSON export file
-- [ ] **IMPT-02**: User can import a character from a Pathbuilder JSON export file
+- [x] **IMPT-01**: User can import a character from a Foundry VTT JSON export file
+- [x] **IMPT-02**: User can import a character from a Pathbuilder JSON export file
 - [ ] **IMPT-03**: Imported character data persists across browser sessions (IndexedDB)
 - [ ] **IMPT-04**: User can delete an imported character
 - [ ] **IMPT-05**: User can re-import/update a character from a new JSON export
@@ -149,8 +149,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PLAT-03 | Phase 1 | Complete |
 | PLAT-04 | Phase 1 | Complete |
 | PLAT-05 | Phase 1 | Complete |
-| IMPT-01 | Phase 2 | Pending |
-| IMPT-02 | Phase 2 | Pending |
+| IMPT-01 | Phase 2 | Complete |
+| IMPT-02 | Phase 2 | Complete |
 | IMPT-03 | Phase 2 | Pending |
 | IMPT-04 | Phase 2 | Pending |
 | IMPT-05 | Phase 2 | Pending |
