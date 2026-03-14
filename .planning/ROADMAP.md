@@ -12,7 +12,7 @@ Seven phases build the dice roller from the ground up. Phase 1 establishes the P
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - SvelteKit + PWA shell, IndexedDB schema, GitHub Pages deployment pipeline
+- [x] **Phase 1: Foundation** - SvelteKit + PWA shell, IndexedDB schema, GitHub Pages deployment pipeline (completed 2026-03-14)
 - [ ] **Phase 2: Character Import** - NormalizedCharacter schema, Foundry and Pathbuilder parsers, import UI
 - [ ] **Phase 3: Rules Engine** - Modifier stacking, degree of success, MAP calculator, dice expression parser
 - [ ] **Phase 4: Core Rolling** - Click-to-roll skills/saves/perception/initiative, free-form dice, roll history
@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. The app is usable on phone, tablet, and desktop without horizontal scrolling or broken layout
   4. Character data and settings written to IndexedDB survive a full page reload
   5. A fresh deploy from the main branch goes live on GitHub Pages without manual steps
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 - [ ] 01-01-PLAN.md — Scaffold SvelteKit project, install deps, configure build tooling + PWA + test infra
@@ -115,7 +115,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 2/3 | In Progress|  |
+| 1. Foundation | 3/3 | Complete   | 2026-03-14 |
 | 2. Character Import | 0/TBD | Not started | - |
 | 3. Rules Engine | 0/TBD | Not started | - |
 | 4. Core Rolling | 0/TBD | Not started | - |
