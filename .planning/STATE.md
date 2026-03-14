@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-03-14T19:32:14.251Z"
+stopped_at: Completed 01-foundation/01-01-PLAN.md
+last_updated: "2026-03-14T20:06:39.669Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 3
+  completed_plans: 1
   percent: 0
 ---
 
@@ -50,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: -
 
 *Updated after each plan completion*
+| Phase 01-foundation P01 | 11 | 3 tasks | 17 files |
 
 ## Accumulated Context
 
@@ -61,6 +62,9 @@ Recent decisions affecting current work:
 - [Roadmap]: NormalizedCharacter schema locked in Phase 2 — both rules engine (Phase 3) and roll UI (Phase 4) depend on its field names; schema changes after Phase 2 are expensive
 - [Roadmap]: Foundry-style check prompt deferred to Phase 7 — requires full rules engine and all roll types to be in place first
 - [Research]: Pathbuilder spell damage is unavailable (names only); UI must surface this gap gracefully in Phase 6 rather than crashing or rolling zero
+- [Phase 01-01]: Use svelte() not sveltekit() in vitest.config.ts — sveltekit() overrides base path breaking Vitest browser UI
+- [Phase 01-01]: Vitest v4.1 requires playwright() factory call from @vitest/browser-playwright, not string provider
+- [Phase 01-01]: SvelteKitPWA base path needs trailing slash '/PathfinderDiceRoller/' vs svelte.config.js '/PathfinderDiceRoller'
 
 ### Pending Todos
 
@@ -74,6 +78,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T19:32:14.245Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation/01-CONTEXT.md
+Last session: 2026-03-14T20:06:39.663Z
+Stopped at: Completed 01-foundation/01-01-PLAN.md
+Resume file: None

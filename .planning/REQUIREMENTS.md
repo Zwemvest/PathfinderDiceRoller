@@ -88,9 +88,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Platform
 
-- [ ] **PLAT-01**: App is hosted on GitHub Pages as a static site
-- [ ] **PLAT-02**: App is installable as a PWA (manifest + service worker)
-- [ ] **PLAT-03**: App works offline after initial load
+- [x] **PLAT-01**: App is hosted on GitHub Pages as a static site
+- [x] **PLAT-02**: App is installable as a PWA (manifest + service worker)
+- [x] **PLAT-03**: App works offline after initial load
 - [ ] **PLAT-04**: App is responsive — usable on phone, tablet, and desktop
 - [ ] **PLAT-05**: All data stored client-side in IndexedDB (no server)
 
@@ -144,9 +144,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| PLAT-01 | Phase 1 | Pending |
-| PLAT-02 | Phase 1 | Pending |
-| PLAT-03 | Phase 1 | Pending |
+| PLAT-01 | Phase 1 | Complete |
+| PLAT-02 | Phase 1 | Complete |
+| PLAT-03 | Phase 1 | Complete |
 | PLAT-04 | Phase 1 | Pending |
 | PLAT-05 | Phase 1 | Pending |
 | IMPT-01 | Phase 2 | Pending |
