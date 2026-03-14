@@ -38,6 +38,7 @@ interface FoundryClassItem {
       unarmed: number;
       other: { name: string; rank: number };
     };
+    defenses: Record<string, number>;
   };
 }
 
@@ -453,8 +454,25 @@ export function parseFoundry(json: unknown): NormalizedCharacter {
     ? (((system.attributes as Record<string, unknown>).hp as Record<string, unknown>)?.value as number ?? maxHp)
     : maxHp;
 
-  // AC (not reliably available from Foundry export; use 10 + DEX + level as placeholder)
-  const ac = 0; // Will be computed by the UI from armor items in future phases
+  // AC: 10 + armor bonus + min(dexMod, dexCap) + proficiency bonus
+  const defenses = classItem.system.defenses;
+  const equippedArmor = items.find(
+    (i) => (i as { type: string }).type === 'armor' &&
+      ((i as { system?: { equipped?: { carryType?: string } } }).system?.equipped?.carryType === 'worn')
+  ) as { system?: { acBonus?: number; dexCap?: number; category?: string } } | undefined;
+
+  let ac: number;
+  if (equippedArmor?.system) {
+    const armorBonus = equippedArmor.system.acBonus ?? 0;
+    const dexCap = equippedArmor.system.dexCap ?? Infinity;
+    const armorCategory = (equippedArmor.system.category ?? 'unarmored') as string;
+    const armorProfRank = defenses[armorCategory] ?? defenses['unarmored'] ?? 0;
+    ac = 10 + armorBonus + Math.min(abilities.dex, dexCap) + profBonusFoundry(armorProfRank, level);
+  } else {
+    // Unarmored: 10 + DEX + unarmored proficiency
+    const unarmoredRank = defenses['unarmored'] ?? 0;
+    ac = 10 + abilities.dex + profBonusFoundry(unarmoredRank, level);
+  }
 
   // Class DC
   const keyAbilMod = abilities[keyAbility];
