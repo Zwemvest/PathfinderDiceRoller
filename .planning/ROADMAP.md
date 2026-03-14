@@ -32,7 +32,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. The app is usable on phone, tablet, and desktop without horizontal scrolling or broken layout
   4. Character data and settings written to IndexedDB survive a full page reload
   5. A fresh deploy from the main branch goes live on GitHub Pages without manual steps
-**Plans**: TBD
+**Plans:** 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold SvelteKit project, install deps, configure build tooling + PWA + test infra
+- [ ] 01-02-PLAN.md — Dexie IndexedDB schema, app shell UI (tabs, dice tray, routes), browser tests
+- [ ] 01-03-PLAN.md — GitHub Actions CI/CD workflow, deployment verification checkpoint
 
 ### Phase 2: Character Import
 **Goal**: Users can bring their characters into the app and those characters survive sessions
@@ -110,7 +115,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/3 | Planning | - |
 | 2. Character Import | 0/TBD | Not started | - |
 | 3. Rules Engine | 0/TBD | Not started | - |
 | 4. Core Rolling | 0/TBD | Not started | - |
