@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-foundation/01-01-PLAN.md
-last_updated: "2026-03-14T20:06:39.669Z"
+stopped_at: Completed 01-foundation/01-02-PLAN.md
+last_updated: "2026-03-14T20:15:41.047Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
   completed_phases: 0
   total_plans: 3
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -51,6 +51,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 11 | 3 tasks | 17 files |
+| Phase 01-foundation P02 | 6 | 2 tasks | 17 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,9 @@ Recent decisions affecting current work:
 - [Phase 01-01]: Use svelte() not sveltekit() in vitest.config.ts — sveltekit() overrides base path breaking Vitest browser UI
 - [Phase 01-01]: Vitest v4.1 requires playwright() factory call from @vitest/browser-playwright, not string provider
 - [Phase 01-01]: SvelteKitPWA base path needs trailing slash '/PathfinderDiceRoller/' vs svelte.config.js '/PathfinderDiceRoller'
+- [Phase 01-02]: SvelteKit $app/* stubs via Vite resolve aliases in vitest.config.ts — svelte() plugin does not resolve virtual $app modules; stub files in src/test-stubs/ fix component test imports cleanly
+- [Phase 01-02]: Added dexie to vitest optimizeDeps.include to prevent mid-test Vite reloads causing flaky browser tests
+- [Phase 01-02]: Used $derived() for webManifestLink in root layout — plan example used Svelte 4 $: syntax; corrected to Svelte 5 runes per plan CRITICAL note
 
 ### Pending Todos
 
@@ -78,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T20:06:39.663Z
-Stopped at: Completed 01-foundation/01-01-PLAN.md
+Last session: 2026-03-14T20:15:41.039Z
+Stopped at: Completed 01-foundation/01-02-PLAN.md
 Resume file: None
