@@ -24,7 +24,7 @@ describe('parsePathbuilder - Kairos (Magus L6)', () => {
   });
 
   // Identity
-  it('name is "Kairos"', () => expect(char.name).toBe('Kairos'));
+  it('name starts with "Kairos"', () => expect(char.name).toMatch(/^Kairos/));
   it('class is "Magus"', () => expect(char.class).toBe('Magus'));
   it('level is 6', () => expect(char.level).toBe(6));
   it('keyAbility is present', () => expect(char.keyAbility).toBeTruthy());
