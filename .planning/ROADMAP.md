@@ -13,7 +13,7 @@ Seven phases build the dice roller from the ground up. Phase 1 establishes the P
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - SvelteKit + PWA shell, IndexedDB schema, GitHub Pages deployment pipeline (completed 2026-03-14)
-- [ ] **Phase 2: Character Import** - NormalizedCharacter schema, Foundry and Pathbuilder parsers, import UI
+- [x] **Phase 2: Character Import** - NormalizedCharacter schema, Foundry and Pathbuilder parsers, import UI (completed 2026-03-14)
 - [ ] **Phase 3: Rules Engine** - Modifier stacking, degree of success, MAP calculator, dice expression parser
 - [ ] **Phase 4: Core Rolling** - Click-to-roll skills/saves/perception/initiative, free-form dice, roll history
 - [ ] **Phase 5: Attacks, Damage & Hero Points** - Attack rolls, MAP UI, critical damage, hero point rerolls
@@ -49,7 +49,7 @@ Plans:
   3. Imported character is still present after closing and reopening the browser
   4. User can delete a character and it is removed from storage
   5. User can re-import a newer JSON for an existing character and the updated data replaces the old
-**Plans:** 1/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 - [ ] 02-01-PLAN.md — NormalizedCharacter types + Foundry and Pathbuilder parsers with TDD tests
@@ -121,7 +121,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
-| 2. Character Import | 1/3 | In Progress|  |
+| 2. Character Import | 3/3 | Complete   | 2026-03-14 |
 | 3. Rules Engine | 0/TBD | Not started | - |
 | 4. Core Rolling | 0/TBD | Not started | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |

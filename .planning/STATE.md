@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 02-character-import/02-02-PLAN.md
-last_updated: "2026-03-14T22:25:13.083Z"
+stopped_at: Completed 02-character-import/02-03-PLAN.md
+last_updated: "2026-03-14T23:20:31.265Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 6
-  completed_plans: 5
+  completed_plans: 6
   percent: 0
 ---
 
@@ -56,6 +56,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation P03 | 20 | 2 tasks | 1 files |
 | Phase 02-character-import P01 | 9 | 3 tasks | 5 files |
 | Phase 02-character-import P02 | 5 | 2 tasks | 7 files |
+| Phase 02-character-import P03 | 40 | 3 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -84,6 +85,9 @@ Recent decisions affecting current work:
 - [Phase 02-02]: version(2).upgrade() clears characters table — Phase 1 raw JSON incompatible with NormalizedCharacter
 - [Phase 02-02]: Re-import detection via findCharacterByName() exact match triggers diff confirmation before replace
 - [Phase 02-02]: Discriminated union ImportState drives ImportZone UI states (idle/parsing/success/error/confirm-reimport)
+- [Phase 02-character-import]: Feats section defaults to collapsed — least frequently referenced during combat; all other sections default open
+- [Phase 02-character-import]: Presentational component pattern: all display components are pure props-in render-out with no DB access
+- [Phase 02-character-import]: cursor:pointer set globally in app.css — Tailwind v4 does not add it by default
 
 ### Pending Todos
 
@@ -97,6 +101,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T22:25:13.080Z
-Stopped at: Completed 02-character-import/02-02-PLAN.md
+Last session: 2026-03-14T23:20:25.509Z
+Stopped at: Completed 02-character-import/02-03-PLAN.md
 Resume file: None
