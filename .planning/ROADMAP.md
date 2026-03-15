@@ -66,7 +66,11 @@ Plans:
   3. A roll result card shows a labeled breakdown of every component (proficiency, ability, status, item, circumstance, untyped) not just a total
   4. Degree of success results are visually distinct with color coding (e.g., gold for crit success, red for crit failure)
   5. The engine passes unit tests for the known edge cases: high-modifier nat-1 vs DC 1 succeeds; nat-20 that already beats by 10 is still crit success not "double crit"; agile MAP applies -4/-8 and standard MAP applies -5/-10
-**Plans**: TBD
+**Plans:** 2 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — Engine types, degree of success calculator (TDD), modifier stacking system + presets (TDD)
+- [ ] 03-02-PLAN.md — Dice expression roller (rpg-dice-roller wrapper), MAP calculator, barrel export
 
 ### Phase 4: Core Rolling
 **Goal**: Users can click any skill, save, perception, or initiative entry and get a complete, logged roll result
@@ -122,7 +126,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
 | 2. Character Import | 3/3 | Complete   | 2026-03-14 |
-| 3. Rules Engine | 0/TBD | Not started | - |
+| 3. Rules Engine | 0/2 | In progress | - |
 | 4. Core Rolling | 0/TBD | Not started | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |
 | 6. Spell Rolling | 0/TBD | Not started | - |
