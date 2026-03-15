@@ -17,7 +17,7 @@ export default defineConfig({
     }
   },
   optimizeDeps: {
-    include: ['dexie']
+    include: ['dexie', '@dice-roller/rpg-dice-roller']
   },
   test: {
     projects: [
