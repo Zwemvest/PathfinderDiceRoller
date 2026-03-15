@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation** - SvelteKit + PWA shell, IndexedDB schema, GitHub Pages deployment pipeline (completed 2026-03-14)
 - [x] **Phase 2: Character Import** - NormalizedCharacter schema, Foundry and Pathbuilder parsers, import UI (completed 2026-03-14)
 - [x] **Phase 3: Rules Engine** - Modifier stacking, degree of success, MAP calculator, dice expression parser (completed 2026-03-15)
-- [ ] **Phase 4: Core Rolling** - Click-to-roll skills/saves/perception/initiative, free-form dice, roll history
+- [x] **Phase 4: Core Rolling** - Click-to-roll skills/saves/perception/initiative, free-form dice, roll history (completed 2026-03-15)
 - [ ] **Phase 5: Attacks, Damage & Hero Points** - Attack rolls, MAP UI, critical damage, hero point rerolls
 - [ ] **Phase 6: Spell Rolling** - Spell attacks, spell DCs, damage display, caster support
 - [ ] **Phase 7: Check Prompt** - Foundry-style check dialog with DC types, difficulty adjustment, degree shift
@@ -82,7 +82,7 @@ Plans:
   3. User can type an arbitrary dice expression (e.g., `3d6+2`, `4d6kh3`, `2d8dh1`) and roll it, with the result appearing in the log
   4. Roll history persists after a page reload
   5. User can clear the roll history and the log empties
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 - [ ] 04-01-PLAN.md — RollSnapshot type, Dexie v3 migration, roll state singleton, persistence helpers
@@ -132,7 +132,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
 | 2. Character Import | 3/3 | Complete   | 2026-03-14 |
 | 3. Rules Engine | 2/2 | Complete   | 2026-03-15 |
-| 4. Core Rolling | 2/3 | In Progress|  |
+| 4. Core Rolling | 3/3 | Complete   | 2026-03-15 |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |
 | 6. Spell Rolling | 0/TBD | Not started | - |
 | 7. Check Prompt | 0/TBD | Not started | - |

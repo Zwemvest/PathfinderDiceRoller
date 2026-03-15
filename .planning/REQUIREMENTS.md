@@ -17,11 +17,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Skills & Saves
 
-- [ ] **ROLL-01**: User can click a skill to roll with correct modifier (proficiency + ability + level + item + other)
-- [ ] **ROLL-02**: User can click a saving throw (Fortitude, Reflex, Will) to roll with correct modifier
-- [ ] **ROLL-03**: User can click Perception to roll with correct modifier
-- [ ] **ROLL-04**: User can roll Initiative (using Perception or a selected skill)
-- [ ] **ROLL-05**: Roll result card shows labeled modifier breakdown (proficiency, ability, status, item, circumstance)
+- [x] **ROLL-01**: User can click a skill to roll with correct modifier (proficiency + ability + level + item + other)
+- [x] **ROLL-02**: User can click a saving throw (Fortitude, Reflex, Will) to roll with correct modifier
+- [x] **ROLL-03**: User can click Perception to roll with correct modifier
+- [x] **ROLL-04**: User can roll Initiative (using Perception or a selected skill)
+- [x] **ROLL-05**: Roll result card shows labeled modifier breakdown (proficiency, ability, status, item, circumstance)
 
 ### Attacks & Damage
 
@@ -73,11 +73,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Free-Form Dice
 
-- [ ] **DICE-01**: User can type arbitrary dice expressions (3d6+2, 2d8dh, 4d6kh3)
-- [ ] **DICE-02**: Dice syntax supports drop highest/lowest (dh, dl)
-- [ ] **DICE-03**: Dice syntax supports keep highest/lowest (kh, kl)
-- [ ] **DICE-04**: User can add typed bonuses/penalties to free-form rolls
-- [ ] **DICE-05**: Free-form rolls appear in roll history
+- [x] **DICE-01**: User can type arbitrary dice expressions (3d6+2, 2d8dh, 4d6kh3)
+- [x] **DICE-02**: Dice syntax supports drop highest/lowest (dh, dl)
+- [x] **DICE-03**: Dice syntax supports keep highest/lowest (kh, kl)
+- [x] **DICE-04**: User can add typed bonuses/penalties to free-form rolls
+- [x] **DICE-05**: Free-form rolls appear in roll history
 
 ### Roll History
 
@@ -164,16 +164,16 @@ Which phases cover which requirements. Updated during roadmap creation.
 | MODF-03 | Phase 3 | Complete |
 | MODF-04 | Phase 3 | Complete |
 | MODF-05 | Phase 3 | Complete |
-| ROLL-01 | Phase 4 | Pending |
-| ROLL-02 | Phase 4 | Pending |
-| ROLL-03 | Phase 4 | Pending |
-| ROLL-04 | Phase 4 | Pending |
-| ROLL-05 | Phase 4 | Pending |
-| DICE-01 | Phase 4 | Pending |
-| DICE-02 | Phase 4 | Pending |
-| DICE-03 | Phase 4 | Pending |
-| DICE-04 | Phase 4 | Pending |
-| DICE-05 | Phase 4 | Pending |
+| ROLL-01 | Phase 4 | Complete |
+| ROLL-02 | Phase 4 | Complete |
+| ROLL-03 | Phase 4 | Complete |
+| ROLL-04 | Phase 4 | Complete |
+| ROLL-05 | Phase 4 | Complete |
+| DICE-01 | Phase 4 | Complete |
+| DICE-02 | Phase 4 | Complete |
+| DICE-03 | Phase 4 | Complete |
+| DICE-04 | Phase 4 | Complete |
+| DICE-05 | Phase 4 | Complete |
 | HIST-01 | Phase 4 | Complete |
 | HIST-02 | Phase 4 | Complete |
 | HIST-03 | Phase 4 | Complete |

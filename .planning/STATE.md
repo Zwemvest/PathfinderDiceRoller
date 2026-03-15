@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 04-core-rolling-03-PLAN.md Task 1; awaiting human verification at Task 2 checkpoint
-last_updated: "2026-03-15T01:20:01.593Z"
+stopped_at: Completed 04-core-rolling-02-PLAN.md
+last_updated: "2026-03-15T01:24:12.510Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 11
-  completed_plans: 10
+  completed_plans: 11
   percent: 0
 ---
 
@@ -61,6 +61,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-rules-engine P02 | 4 | 2 tasks | 11 files |
 | Phase 04-core-rolling P01 | 6 | 2 tasks | 4 files |
 | Phase 04-core-rolling P03 | 2 | 1 tasks | 2 files |
+| Phase 04-core-rolling P02 | 6 | 2 tasks | 14 files |
 
 ## Accumulated Context
 
@@ -103,6 +104,10 @@ Recent decisions affecting current work:
 - [Phase 04-core-rolling]: rollState and dialogState mutate properties directly — Svelte 5 $state proxy rules forbid whole-object reassignment
 - [Phase 04-core-rolling]: column-reverse CSS + scrollTop=0 for chat-log newest-at-bottom with liveQuery DESC order
 - [Phase 04-core-rolling]: Native confirm() for Clear History — avoids custom modal complexity
+- [Phase 04-core-rolling]: onclick|stopPropagation is Svelte 4 syntax — Svelte 5 requires onclick={(e) => e.stopPropagation()} inline handler
+- [Phase 04-core-rolling]: Added @dice-roller/rpg-dice-roller to vitest optimizeDeps.include to prevent mid-test Vite reloads
+- [Phase 04-core-rolling]: Free-form rolls skip computeDegree — dc/degree/shifted all null for non-d20 expressions
+- [Phase 04-core-rolling]: Initiative skill picker uses availableSkills prop passed from CharacterDashboard — no async DB fetch in component
 
 ### Pending Todos
 
@@ -116,6 +121,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-15T01:20:01.590Z
-Stopped at: Completed 04-core-rolling-03-PLAN.md Task 1; awaiting human verification at Task 2 checkpoint
+Last session: 2026-03-15T01:24:12.507Z
+Stopped at: Completed 04-core-rolling-02-PLAN.md
 Resume file: None
