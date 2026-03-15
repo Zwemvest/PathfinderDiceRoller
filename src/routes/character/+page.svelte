@@ -77,9 +77,9 @@
 			<CharacterDashboard character={activeCharacter} />
 
 			<!-- Collapsible sections: Saves, Skills, Attacks, Spells, Feats -->
-			<SavesSection saves={activeCharacter.saves} />
+			<SavesSection saves={activeCharacter.saves} characterName={activeCharacter.name} />
 
-			<SkillsSection skills={activeCharacter.skills} />
+			<SkillsSection skills={activeCharacter.skills} characterName={activeCharacter.name} />
 
 			<AttacksSection weapons={activeCharacter.weapons} />
 

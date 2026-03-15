@@ -1,1 +1,5 @@
-<!-- Empty state: no roll yet; will hold the last roll result in Phase 4 -->
+<script lang="ts">
+	import RollResultCard from '$lib/components/rolling/RollResultCard.svelte';
+</script>
+
+<RollResultCard />

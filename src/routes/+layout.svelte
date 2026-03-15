@@ -6,6 +6,7 @@
 	import TabBar from '$lib/components/layout/TabBar.svelte';
 	import DiceTray from '$lib/components/layout/DiceTray.svelte';
 	import RollResultCard from '$lib/components/layout/RollResultCard.svelte';
+	import PreRollDialog from '$lib/components/rolling/PreRollDialog.svelte';
 	import { requestPersistentStorage } from '$lib/db/persistence';
 
 	let { children } = $props();
@@ -22,6 +23,9 @@
 <svelte:head>
 	{@html webManifestLink}
 </svelte:head>
+
+<!-- Pre-roll dialog — mounted once at layout level, available from any route -->
+<PreRollDialog />
 
 <!-- Full-height flex column: scrollable content + fixed bottom chrome -->
 <div class="flex flex-col h-dvh overflow-hidden bg-surface-base text-text-primary">

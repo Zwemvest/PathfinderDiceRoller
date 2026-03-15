@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { NormalizedCharacter, AbilitySlug } from '$lib/parsers/types';
+	import { openPreRollDialog } from '$lib/state/roll.svelte';
 
 	interface Props {
 		character: NormalizedCharacter;
@@ -86,10 +87,15 @@
 				<p class="text-text-primary text-lg font-bold leading-none">{character.ac}</p>
 				<p class="text-text-muted text-xs mt-0.5">AC</p>
 			</div>
-			<div class="flex-1 bg-surface-overlay rounded-lg p-2 text-center">
+			<!-- Perception — clickable -->
+			<button
+				type="button"
+				onclick={() => openPreRollDialog('Perception', character.perception, 'perception', character.name)}
+				class="flex-1 bg-surface-overlay rounded-lg p-2 text-center hover:bg-surface-overlay/70 transition-colors"
+			>
 				<p class="text-text-primary text-lg font-bold leading-none">{formatMod(character.perception)}</p>
 				<p class="text-text-muted text-xs mt-0.5">Perception</p>
-			</div>
+			</button>
 			{#if character.classDC > 0}
 				<div class="flex-1 bg-surface-overlay rounded-lg p-2 text-center">
 					<p class="text-text-primary text-lg font-bold leading-none">{character.classDC}</p>
@@ -97,5 +103,14 @@
 				</div>
 			{/if}
 		</div>
+
+		<!-- Roll Initiative button -->
+		<button
+			type="button"
+			onclick={() => openPreRollDialog('Initiative', character.perception, 'initiative', character.name)}
+			class="w-full py-2 rounded-lg bg-surface-overlay text-text-primary text-sm font-medium hover:bg-surface-overlay/70 transition-colors border border-white/10"
+		>
+			Roll Initiative
+		</button>
 	</div>
 </div>

@@ -1,1 +1,5 @@
-<!-- Dice tray placeholder — built in Phase 4 -->
+<script lang="ts">
+	import DiceTray from '$lib/components/rolling/DiceTray.svelte';
+</script>
+
+<DiceTray />
