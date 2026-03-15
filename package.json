@@ -37,6 +37,7 @@
     "vitest-browser-svelte": "^2.0.0"
   },
   "dependencies": {
+    "@dice-roller/rpg-dice-roller": "^5.5.1",
     "dexie": "^4.0.0"
   },
   "type": "module"
