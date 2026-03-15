@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - SvelteKit + PWA shell, IndexedDB schema, GitHub Pages deployment pipeline (completed 2026-03-14)
 - [x] **Phase 2: Character Import** - NormalizedCharacter schema, Foundry and Pathbuilder parsers, import UI (completed 2026-03-14)
-- [ ] **Phase 3: Rules Engine** - Modifier stacking, degree of success, MAP calculator, dice expression parser
+- [x] **Phase 3: Rules Engine** - Modifier stacking, degree of success, MAP calculator, dice expression parser (completed 2026-03-15)
 - [ ] **Phase 4: Core Rolling** - Click-to-roll skills/saves/perception/initiative, free-form dice, roll history
 - [ ] **Phase 5: Attacks, Damage & Hero Points** - Attack rolls, MAP UI, critical damage, hero point rerolls
 - [ ] **Phase 6: Spell Rolling** - Spell attacks, spell DCs, damage display, caster support
@@ -66,7 +66,7 @@ Plans:
   3. A roll result card shows a labeled breakdown of every component (proficiency, ability, status, item, circumstance, untyped) not just a total
   4. Degree of success results are visually distinct with color coding (e.g., gold for crit success, red for crit failure)
   5. The engine passes unit tests for the known edge cases: high-modifier nat-1 vs DC 1 succeeds; nat-20 that already beats by 10 is still crit success not "double crit"; agile MAP applies -4/-8 and standard MAP applies -5/-10
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 
 Plans:
 - [ ] 03-01-PLAN.md — Engine types, degree of success calculator (TDD), modifier stacking system + presets (TDD)
@@ -126,7 +126,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
 | 2. Character Import | 3/3 | Complete   | 2026-03-14 |
-| 3. Rules Engine | 1/2 | In Progress|  |
+| 3. Rules Engine | 2/2 | Complete   | 2026-03-15 |
 | 4. Core Rolling | 0/TBD | Not started | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |
 | 6. Spell Rolling | 0/TBD | Not started | - |

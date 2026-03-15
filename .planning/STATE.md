@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-rules-engine-01-PLAN.md
-last_updated: "2026-03-15T00:13:48.625Z"
+stopped_at: Completed 03-02-PLAN.md
+last_updated: "2026-03-15T00:15:27.578Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 8
-  completed_plans: 7
+  completed_plans: 8
   percent: 0
 ---
 
@@ -58,6 +58,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-character-import P02 | 5 | 2 tasks | 7 files |
 | Phase 02-character-import P03 | 40 | 3 tasks | 8 files |
 | Phase 03-rules-engine P01 | 3 | 2 tasks | 7 files |
+| Phase 03-rules-engine P02 | 4 | 2 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -92,6 +93,9 @@ Recent decisions affecting current work:
 - [Phase 03-rules-engine]: computeDegree applies base degree first then nat 20/1 shift (PF2e RAW order-of-operations)
 - [Phase 03-rules-engine]: Typed bonuses and penalties resolved separately per category — best bonus + worst penalty both apply
 - [Phase 03-rules-engine]: DEGREE_COLORS uses Foundry-compatible hex strings for visual consistency with PF2e ecosystem
+- [Phase 03-02]: Export configureEngine() from dice.ts — lets test files override RNG without modifying production code or adding env checks
+- [Phase 03-02]: naturalDie = dieResults[0] — first die result is the d20 face for 1d20+M rolls; consistent with check expressions in phases 4-7
+- [Phase 03-02]: Barrel export via src/lib/engine/index.ts — single import point for all consuming phases; DiceRoll (not DiceRoller) for stateless rolling
 
 ### Pending Todos
 
@@ -105,6 +109,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-15T00:13:48.622Z
-Stopped at: Completed 03-rules-engine-01-PLAN.md
+Last session: 2026-03-15T00:15:27.576Z
+Stopped at: Completed 03-02-PLAN.md
 Resume file: None
