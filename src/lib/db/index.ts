@@ -19,11 +19,34 @@ export interface Character {
 	raw: string; // raw JSON blob, replaced by NormalizedCharacter in v2
 }
 
+/**
+ * @deprecated Use RollSnapshot instead. Kept for db.browser.test.ts compatibility.
+ */
 export interface RollHistoryEntry {
 	id?: number;
 	rolledAt: Date;
 	expression: string;
 	result: number;
+}
+
+// ─── Roll snapshot (Phase 4) ──────────────────────────────────────────────────
+
+export interface RollSnapshot {
+	id?: number;
+	rolledAt: Date;
+	characterName: string;   // "Knurvik" or "Free-form"
+	label: string;           // "Athletics", "Fortitude", "2d8+4"
+	rollType: 'skill' | 'save' | 'perception' | 'initiative' | 'free-form';
+	notation: string;        // "1d20+15"
+	dieResults: number[];    // raw die faces
+	naturalDie: number;      // first die (d20 face for checks)
+	modifierTotal: number;   // net modifier
+	total: number;           // final roll total
+	keptModifiers: string;   // JSON-serialized kept[] for breakdown display
+	dc: number | null;
+	degree: string | null;   // DegreeOfSuccess string or null
+	shifted: boolean;
+	shiftDirection: string | null; // 'up' | 'down' | null
 }
 
 export interface Settings {
@@ -42,7 +65,7 @@ export interface HeroPoint {
 
 class AppDatabase extends Dexie {
 	characters!: Table<StoredCharacter>;
-	rollHistory!: Table<RollHistoryEntry>;
+	rollHistory!: Table<RollSnapshot>;
 	settings!: Table<Settings>;
 	heroPoints!: Table<HeroPoint>;
 
@@ -69,6 +92,16 @@ class AppDatabase extends Dexie {
 			.upgrade((tx) => {
 				return tx.table('characters').clear();
 			});
+
+		// v3 schema (Phase 4 — rollHistory stores RollSnapshot)
+		// No upgrade callback needed: old entries with missing fields render
+		// gracefully with nullish checks or are cleared by clearRollHistory().
+		this.version(3).stores({
+			characters: '++id, name, importedAt, sourceFormat',
+			rollHistory: '++id, rolledAt',
+			settings: '++id, key',
+			heroPoints: '++id, characterId'
+		});
 	}
 }
 
