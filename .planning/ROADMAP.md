@@ -82,7 +82,12 @@ Plans:
   3. User can type an arbitrary dice expression (e.g., `3d6+2`, `4d6kh3`, `2d8dh1`) and roll it, with the result appearing in the log
   4. Roll history persists after a page reload
   5. User can clear the roll history and the log empties
-**Plans**: TBD
+**Plans:** 3 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — RollSnapshot type, Dexie v3 migration, roll state singleton, persistence helpers
+- [ ] 04-02-PLAN.md — PreRollDialog, RollResultCard, DiceTray components + character click handlers
+- [ ] 04-03-PLAN.md — History tab page with liveQuery, clear history, human verification checkpoint
 
 ### Phase 5: Attacks, Damage & Hero Points
 **Goal**: Martial characters can roll attacks with correct MAP and damage, and spend hero points to reroll failures
@@ -127,7 +132,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
 | 2. Character Import | 3/3 | Complete   | 2026-03-14 |
 | 3. Rules Engine | 2/2 | Complete   | 2026-03-15 |
-| 4. Core Rolling | 0/TBD | Not started | - |
+| 4. Core Rolling | 0/3 | Planning complete | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |
 | 6. Spell Rolling | 0/TBD | Not started | - |
 | 7. Check Prompt | 0/TBD | Not started | - |
