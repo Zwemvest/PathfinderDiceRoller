@@ -81,10 +81,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Roll History
 
-- [ ] **HIST-01**: All rolls are recorded in a scrollable audit log
-- [ ] **HIST-02**: Each roll entry shows: roll type, dice expression, individual dice results, modifiers, total, degree of success (if DC set)
-- [ ] **HIST-03**: Roll history persists across browser sessions (IndexedDB)
-- [ ] **HIST-04**: User can clear roll history
+- [x] **HIST-01**: All rolls are recorded in a scrollable audit log
+- [x] **HIST-02**: Each roll entry shows: roll type, dice expression, individual dice results, modifiers, total, degree of success (if DC set)
+- [x] **HIST-03**: Roll history persists across browser sessions (IndexedDB)
+- [x] **HIST-04**: User can clear roll history
 
 ### Platform
 
@@ -174,10 +174,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DICE-03 | Phase 4 | Pending |
 | DICE-04 | Phase 4 | Pending |
 | DICE-05 | Phase 4 | Pending |
-| HIST-01 | Phase 4 | Pending |
-| HIST-02 | Phase 4 | Pending |
-| HIST-03 | Phase 4 | Pending |
-| HIST-04 | Phase 4 | Pending |
+| HIST-01 | Phase 4 | Complete |
+| HIST-02 | Phase 4 | Complete |
+| HIST-03 | Phase 4 | Complete |
+| HIST-04 | Phase 4 | Complete |
 | ATTK-01 | Phase 5 | Pending |
 | ATTK-02 | Phase 5 | Pending |
 | ATTK-03 | Phase 5 | Pending |

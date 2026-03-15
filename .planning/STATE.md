@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 4 context gathered
-last_updated: "2026-03-15T00:45:58.414Z"
+stopped_at: Completed 04-core-rolling-01-PLAN.md
+last_updated: "2026-03-15T01:15:52.061Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
   completed_phases: 3
-  total_plans: 8
-  completed_plans: 8
+  total_plans: 11
+  completed_plans: 9
   percent: 0
 ---
 
@@ -59,6 +59,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-character-import P03 | 40 | 3 tasks | 8 files |
 | Phase 03-rules-engine P01 | 3 | 2 tasks | 7 files |
 | Phase 03-rules-engine P02 | 4 | 2 tasks | 11 files |
+| Phase 04-core-rolling P01 | 6 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -96,6 +97,9 @@ Recent decisions affecting current work:
 - [Phase 03-02]: Export configureEngine() from dice.ts — lets test files override RNG without modifying production code or adding env checks
 - [Phase 03-02]: naturalDie = dieResults[0] — first die result is the d20 face for 1d20+M rolls; consistent with check expressions in phases 4-7
 - [Phase 03-02]: Barrel export via src/lib/engine/index.ts — single import point for all consuming phases; DiceRoll (not DiceRoller) for stateless rolling
+- [Phase 04-core-rolling]: RollHistoryEntry kept @deprecated for backwards compat — db.browser.test.ts still references it
+- [Phase 04-core-rolling]: keptModifiers stored as JSON string in DB — rich nested modifier breakdown without requiring Dexie index on complex data
+- [Phase 04-core-rolling]: rollState and dialogState mutate properties directly — Svelte 5 $state proxy rules forbid whole-object reassignment
 
 ### Pending Todos
 
@@ -109,6 +113,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-15T00:45:58.408Z
-Stopped at: Phase 4 context gathered
-Resume file: .planning/phases/04-core-rolling/04-CONTEXT.md
+Last session: 2026-03-15T01:15:52.058Z
+Stopped at: Completed 04-core-rolling-01-PLAN.md
+Resume file: None
