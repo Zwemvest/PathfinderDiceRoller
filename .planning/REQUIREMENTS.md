@@ -40,11 +40,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Degree of Success
 
-- [ ] **DGRN-01**: User can enter a DC for any d20 roll
-- [ ] **DGRN-02**: App auto-computes degree of success (critical success / success / failure / critical failure) from roll total vs DC
-- [ ] **DGRN-03**: Natural 20 shifts degree of success one step better
-- [ ] **DGRN-04**: Natural 1 shifts degree of success one step worse
-- [ ] **DGRN-05**: Degree of success is visually distinct (color-coded result)
+- [x] **DGRN-01**: User can enter a DC for any d20 roll
+- [x] **DGRN-02**: App auto-computes degree of success (critical success / success / failure / critical failure) from roll total vs DC
+- [x] **DGRN-03**: Natural 20 shifts degree of success one step better
+- [x] **DGRN-04**: Natural 1 shifts degree of success one step worse
+- [x] **DGRN-05**: Degree of success is visually distinct (color-coded result)
 
 ### Check Prompt
 
@@ -58,11 +58,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Modifiers & Bonuses
 
-- [ ] **MODF-01**: User can add status bonuses/penalties to a roll
-- [ ] **MODF-02**: User can add circumstance bonuses/penalties to a roll
-- [ ] **MODF-03**: User can add item bonuses/penalties to a roll
-- [ ] **MODF-04**: Bonus stacking follows PF2e rules (highest of each type, all untyped stack)
-- [ ] **MODF-05**: User can add untyped penalties to a roll
+- [x] **MODF-01**: User can add status bonuses/penalties to a roll
+- [x] **MODF-02**: User can add circumstance bonuses/penalties to a roll
+- [x] **MODF-03**: User can add item bonuses/penalties to a roll
+- [x] **MODF-04**: Bonus stacking follows PF2e rules (highest of each type, all untyped stack)
+- [x] **MODF-05**: User can add untyped penalties to a roll
 
 ### Hero Points
 
@@ -154,16 +154,16 @@ Which phases cover which requirements. Updated during roadmap creation.
 | IMPT-03 | Phase 2 | Complete |
 | IMPT-04 | Phase 2 | Complete |
 | IMPT-05 | Phase 2 | Complete |
-| DGRN-01 | Phase 3 | Pending |
-| DGRN-02 | Phase 3 | Pending |
-| DGRN-03 | Phase 3 | Pending |
-| DGRN-04 | Phase 3 | Pending |
-| DGRN-05 | Phase 3 | Pending |
-| MODF-01 | Phase 3 | Pending |
-| MODF-02 | Phase 3 | Pending |
-| MODF-03 | Phase 3 | Pending |
-| MODF-04 | Phase 3 | Pending |
-| MODF-05 | Phase 3 | Pending |
+| DGRN-01 | Phase 3 | Complete |
+| DGRN-02 | Phase 3 | Complete |
+| DGRN-03 | Phase 3 | Complete |
+| DGRN-04 | Phase 3 | Complete |
+| DGRN-05 | Phase 3 | Complete |
+| MODF-01 | Phase 3 | Complete |
+| MODF-02 | Phase 3 | Complete |
+| MODF-03 | Phase 3 | Complete |
+| MODF-04 | Phase 3 | Complete |
+| MODF-05 | Phase 3 | Complete |
 | ROLL-01 | Phase 4 | Pending |
 | ROLL-02 | Phase 4 | Pending |
 | ROLL-03 | Phase 4 | Pending |

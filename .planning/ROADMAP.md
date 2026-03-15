@@ -66,7 +66,7 @@ Plans:
   3. A roll result card shows a labeled breakdown of every component (proficiency, ability, status, item, circumstance, untyped) not just a total
   4. Degree of success results are visually distinct with color coding (e.g., gold for crit success, red for crit failure)
   5. The engine passes unit tests for the known edge cases: high-modifier nat-1 vs DC 1 succeeds; nat-20 that already beats by 10 is still crit success not "double crit"; agile MAP applies -4/-8 and standard MAP applies -5/-10
-**Plans:** 2 plans
+**Plans:** 1/2 plans executed
 
 Plans:
 - [ ] 03-01-PLAN.md — Engine types, degree of success calculator (TDD), modifier stacking system + presets (TDD)
@@ -126,7 +126,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
 | 2. Character Import | 3/3 | Complete   | 2026-03-14 |
-| 3. Rules Engine | 0/2 | In progress | - |
+| 3. Rules Engine | 1/2 | In Progress|  |
 | 4. Core Rolling | 0/TBD | Not started | - |
 | 5. Attacks, Damage & Hero Points | 0/TBD | Not started | - |
 | 6. Spell Rolling | 0/TBD | Not started | - |

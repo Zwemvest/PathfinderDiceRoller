@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 3 context gathered
-last_updated: "2026-03-14T23:53:05.177Z"
+stopped_at: Completed 03-rules-engine-01-PLAN.md
+last_updated: "2026-03-15T00:13:48.625Z"
 last_activity: 2026-03-14 — Roadmap created; 54 v1 requirements mapped across 7 phases
 progress:
   total_phases: 7
   completed_phases: 2
-  total_plans: 6
-  completed_plans: 6
+  total_plans: 8
+  completed_plans: 7
   percent: 0
 ---
 
@@ -57,6 +57,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-character-import P01 | 9 | 3 tasks | 5 files |
 | Phase 02-character-import P02 | 5 | 2 tasks | 7 files |
 | Phase 02-character-import P03 | 40 | 3 tasks | 8 files |
+| Phase 03-rules-engine P01 | 3 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,9 @@ Recent decisions affecting current work:
 - [Phase 02-character-import]: Feats section defaults to collapsed — least frequently referenced during combat; all other sections default open
 - [Phase 02-character-import]: Presentational component pattern: all display components are pure props-in render-out with no DB access
 - [Phase 02-character-import]: cursor:pointer set globally in app.css — Tailwind v4 does not add it by default
+- [Phase 03-rules-engine]: computeDegree applies base degree first then nat 20/1 shift (PF2e RAW order-of-operations)
+- [Phase 03-rules-engine]: Typed bonuses and penalties resolved separately per category — best bonus + worst penalty both apply
+- [Phase 03-rules-engine]: DEGREE_COLORS uses Foundry-compatible hex strings for visual consistency with PF2e ecosystem
 
 ### Pending Todos
 
@@ -101,6 +105,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T23:53:05.174Z
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-rules-engine/03-CONTEXT.md
+Last session: 2026-03-15T00:13:48.622Z
+Stopped at: Completed 03-rules-engine-01-PLAN.md
+Resume file: None
